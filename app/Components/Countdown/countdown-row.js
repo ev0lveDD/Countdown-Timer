@@ -7,7 +7,7 @@ import classes from './countdown-row.module.css';
 
 export default function CountDownRow() {
 
-    const targetTime = new Date("2024-08-30").getTime();
+    const targetTime = new Date("2024-12-31").getTime();
     const [currentTime,setCurrentTime] = useState(Date.now());
 
     const timeBetween = targetTime - currentTime;
